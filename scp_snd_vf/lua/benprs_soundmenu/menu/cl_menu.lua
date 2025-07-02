@@ -66,16 +66,12 @@ net.Receive("BENPRS:SCPSOUNDVF::CLOPENMENU",  function()
     SCPSNDVF.PANEL.MAIN:SetDraggable(false)
     SCPSNDVF.PANEL.MAIN:SetKeyboardInputEnabled(true)
     hook.Add("OnPauseMenuShow", "BENPRS:SCPSOUNDVF::ECHAPCLOSE", function()
-        SCPSNDVF.PANEL.MAIN:Close()
-        hook.Remove("OnPauseMenuShow", "BENPRS:SCPSOUNDVF::ECHAPCLOSE")
-	    return false
-    end)
-
-    SCPSNDVF.PANEL.MAIN.OnKeyCodePressed = function(self, key)
-        if key == KEY_ESCAPE then
-            self:Close()
+        if IsValid(SCPSNDVF.PANEL.MAIN) then
+            SCPSNDVF.PANEL.MAIN:Close()
+            return false
         end
-    end
+    end)
+		
     SCPSNDVF.PANEL.MAIN.Paint = function(self, w, h)
         RNDX.Draw(0, 0, 0, w, h, SCPSNDVF.CONFIG.COULEUR["fond"])
         RNDX.Draw(1, 0, 0, w, RH(102), SCPSNDVF.CONFIG.COULEUR["fond_txt"])
