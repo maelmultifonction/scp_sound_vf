@@ -1,3 +1,6 @@
+![Bannière SCP SOUND VF](https://i.imgur.com/Jd3nCeX.png)
+
+
 # SCP Sounds VF - Player Officiel de Sons et d'Alarmes
 
 Bienvenue dans le Player officiel des sons et alarmes pour **SCP Sounds VF**.  
@@ -77,3 +80,7 @@ Merci d’utiliser **SCP Sounds VF** et profitez pleinement de votre expérience
 
 ---
 [![Licence CC BY-SA 4.0](https://img.shields.io/badge/Licence-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![Steam Workshop](https://img.shields.io/badge/Steam_Workshop-blue?logo=steam&logoColor=white)](https://steamcommunity.com/sharedfiles/filedetails/?id=2988855379)
+
+
+![Soutien](https://i.imgur.com/Wi2edb8.png)
