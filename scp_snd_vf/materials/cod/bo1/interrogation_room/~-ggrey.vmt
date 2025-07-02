@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 				"COD/BO1/Interrogation_Room/~-ggrey"
+$selfillum 1
+	
+   "$nocull"      "0" 
+   "$envmap"             "env_cubemap"
+   "$envmapmask" [texture]
+   "$envmaptint"         "[0.00 0.00 0.00]" 
+   "$normalmapalphaenvmapmask"    "1" 
+
+   	$phong               1
+	$phongfresnelranges  "[0.3 0.75 1.00]"
+	$halflambert         1
+	$phongexponent       10
+	$phongboost          5 
+}

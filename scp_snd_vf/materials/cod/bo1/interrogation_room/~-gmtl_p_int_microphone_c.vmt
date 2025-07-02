@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 				"COD/BO1/Interrogation_Room/~-gmtl_p_int_microphone_c"
+	"$bumpmap" 					"COD/BO1/Interrogation_Room/mtl_p_int_microphone_n"
+	
+   "$nocull"      "0" 
+   "$envmap"             "env_cubemap"
+   "$envmapmask" "COD/BO1/Interrogation_Room/~$black-r&$white-r&$black-r&~~ff393715"
+   "$envmaptint"         "[0.00 0.00 0.00]" 
+   "$normalmapalphaenvmapmask"    "1" 
+
+   	$phong               1
+	$phongfresnelranges  "[0.3 0.75 1.00]"
+	$halflambert         1
+	$phongexponent       10
+	$phongboost          5 
+}
